@@ -1,9 +1,9 @@
 import React from "react";
 
-const Title =() =>{
+const Title =(props) =>{
     return(
         <>
-        <h1>Tercera Entrega 3 de Desafio</h1>
+        <h1>Tercera Entrega 3 de Desafio {props.texto}</h1>
         </>
     )
 }

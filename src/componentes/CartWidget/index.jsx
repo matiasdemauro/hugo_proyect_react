@@ -1,6 +1,7 @@
 import React from "react";
 import IconoCarrito from '../image/icono-cart.png';
 
+
 const CartWidget = () =>{
     return (
     <>

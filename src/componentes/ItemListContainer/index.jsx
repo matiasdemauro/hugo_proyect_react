@@ -3,7 +3,7 @@ import Title from "../Title/index";
 
 const ItemListContainer =() =>{
 return(
-    <Title />
+    <Title texto= "practicando"/>
 );
 
 }
