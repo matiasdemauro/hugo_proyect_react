@@ -3,9 +3,10 @@ const producto = [
     id: 1,
     title: "Nutra Nuggets",
     descripcion:
-      "Es ideal para perros activos que prefieren el sabor del cordero o que pueden tener sensibilidad al pollo.",
+      "Es ideal para perros activos que prefieren el sabor del cordero o que pueden tener sensibilidad al pollo o al maíz. Rico en proteína de cordero,y se formula con el equilibrio adecuado de ácidos grasos omega para promover la salud general y un pelaje hermoso y brillante.",
     precio: 24990,
-    imagen: "http://127.0.0.1:5500/img/D_648048-MLV44873096897_022021-O.jpg",
+    imagen:
+      "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
   },
   {
     id: 2,
@@ -22,7 +23,7 @@ const producto = [
     descripcion:
       "Galletas para perros cachorros de todas las tallas, de 1 a 12 meses. Con peso adulto de 40kg.",
     precio: 990,
-    imagen: "http://127.0.0.1:5500/img/eukanuba-Treats-smallBreeds.jpg",
+    imagen: "http://127.0.0.1:5500/img/eukanuba-Treats-smallBreeds.jpgds.jpg",
   },
   {
     id: 4,
@@ -31,7 +32,7 @@ const producto = [
       "Formulado con ingredientes simples y nutritivos de pollo, arroz integral, verduras y frutas.",
     precio: 24990,
     imagen:
-      "http://127.0.0.1:5500/img/propac-adulto-mayor-pollo-arroz-integral-mature-chicken-brown-rice-300x300.jpg",
+      "http://img/propac-adulto-mayor-pollo-arroz-integral-mature-chicken-brown-rice-300x300.jpg",
   },
   {
     id: 5,
@@ -39,7 +40,7 @@ const producto = [
     descripcion:
       "Formula para cachorro está específicamente diseñado para satisfacer nutricionalmente.",
     precio: 39900,
-    imagen: "http://127.0.0.1:5500/img/perrarina-nutra-nuggets-puppy.jpg",
+    imagen: "/img/perrarina-nutra-nuggets-puppy.jpg",
   },
   {
     id: 6,
@@ -47,7 +48,7 @@ const producto = [
     descripcion:
       "Alimento para peces sin crear residuos o contaminación a su habita, con 100% de nutrientes.",
     precio: 33400,
-    imagen: "http://127.0.0.1:5500/img/download-2.jpg",
+    imagen: "http/img/download-2.jpg",
   },
   {
     id: 7,
