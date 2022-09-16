@@ -1,12 +1,15 @@
 import React, {useState, useEffect}  from "react";
+import { useParams } from "react-router";
 import producto from "../datos/productos";
-
 import ItemDetail from "../ItemDetail/ItemDetail";
 
-const viewProducto =()=>{
+const viewProducto =(id)=>{
     return new Promise((resolucion)=>{
         setTimeout(() => { 
-            resolucion(producto);
+           const productoAl = producto.find((producto)=>{
+               return parseInt(id) ===  producto.id;
+           })
+           resolucion(productoAl)
         }, 2000);
     });
 }
@@ -15,12 +18,12 @@ const viewProducto =()=>{
 
 const ItemDetailContainer =() =>{
     const [producto, setProducto] = useState([]);
-
+const {itemid} = useParams
     useEffect(() =>{
-        viewProducto().then(respuestaPro =>{
-            setProducto(respuestaPro[0]);
+        viewProducto(itemid).then(respuestaPro =>{
+            setProducto(respuestaPro);
         })
-    }, []);
+    }, [itemid]);
   
     
 return(
