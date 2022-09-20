@@ -1,11 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .cantidad {
   background-color: red;
   border-radius: 24rem;
   padding: 0%;
 }
+.color {
+  background-color: green;
+  max-width: 100%;
+  height: 100%;
+}
 .nav-item {
   display: flex;
   position: relative;
+}
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  color: white;
 }
 .cantidad {
   background-color: red;
@@ -13,4 +34,13 @@
   padding: 0%;
   display: inline;
   position: absolute;
+}
+.logo {
+  width: 16rem;
+}
+h1 {
+  text-align: center;
+}
+.botonVer {
+  background-color: yellow;
 }

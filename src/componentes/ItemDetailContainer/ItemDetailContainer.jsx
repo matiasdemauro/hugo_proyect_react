@@ -1,7 +1,8 @@
+
 import React, {useState, useEffect}  from "react";
 import { useParams } from "react-router";
 import producto from "../datos/productos";
-import ItemDetail from "../ItemDetail/ItemDetail";
+import ItemDetail from "../ItemDetail/ItemDetail"
 
 const viewProducto =(id)=>{
     return new Promise((resolucion)=>{
@@ -10,15 +11,16 @@ const viewProducto =(id)=>{
                return parseInt(id) ===  producto.id;
            })
            resolucion(productoAl)
-        }, 2000);
+        }, 1000);
     });
 }
 
  
 
 const ItemDetailContainer =() =>{
+ 
     const [producto, setProducto] = useState([]);
-const {itemid} = useParams
+const {itemid} = useParams(); 
     useEffect(() =>{
         viewProducto(itemid).then(respuestaPro =>{
             setProducto(respuestaPro);
@@ -36,3 +38,4 @@ return(
 }
 
 export default ItemDetailContainer
+
