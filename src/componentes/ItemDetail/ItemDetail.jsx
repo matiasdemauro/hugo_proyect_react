@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 import ItemCount from "../itemCount/ItemCount";
+import useCartContext from "../../CartContext";
 
 const ItemDetail =({producto})=>{
 const [aCart, setaCart] = useState(false);
 
-  const onAdd=()=>{
+  const {addToCart} = useCartContext();
+  const onAdd=(count)=>{
     setaCart(true)
+    addToCart(producto, count)
+    console.log("agregando al carrito", producto,count)
+    
 }
+     
   return(
-    <section >
+  
       <div className="container">
     <div className="row">
     <div className="col-12 col-sm-4 text-center d-flex container-fluid">
@@ -30,7 +36,6 @@ const [aCart, setaCart] = useState(false);
     </div>
   </div>
 </div>
-</section>
 
   );
 

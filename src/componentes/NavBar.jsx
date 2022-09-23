@@ -1,12 +1,13 @@
 import '../App.css'
 import CartWidget from './CartWidget'
 import { Link } from 'react-router-dom'
+import logo from "./image/Editable_Family_Pets2.png"
 
 function NavBar(){
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid color">
-        <Link className="navbar-brand" to="/"><img src="Editable_Family_Pets2.png" className="logo" alt="logo" /></Link>
+        <Link className="navbar-brand" to="/"><img src={logo} className="logo" alt="logo" /></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

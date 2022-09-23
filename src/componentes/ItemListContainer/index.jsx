@@ -1,7 +1,7 @@
 import "../ItemDetail/ItemDetail.css"
 import React, { useEffect, useState } from "react";
 import Title from "../Title/index";
-import ItemCount from "../itemCount/ItemCount";
+// import ItemCount from "../itemCount/ItemCount";
 import Inventario from "../datos/productos"
 import ItemList from "../itemList/ItemList";
 import {useParams} from "react-router-dom"
@@ -37,7 +37,7 @@ return(
     <>
     <Title texto= ""/>
     <ItemList producto={producto}/>
-    <ItemCount  initial={1} stock={5}/>
+    {/* <ItemCount  initial={1} stock={5}/> */}
     </>
 );
 
