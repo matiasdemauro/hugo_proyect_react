@@ -32,17 +32,17 @@ const producto = [
     imagen:
       "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
   },
-  // {
-  //   id: 4,
-  //   title: "Propac Adulto",
-  //   especie: "perro",
-  //   descripcion:
-  //     "Formulado con ingredientes simples y nutritivos de pollo, arroz integral, verduras y frutas.",
-  //   precio: 24990,
-  //   stock: 10,
-  //   imagen:
-  //     "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
-  // },
+  {
+    id: 4,
+    title: "Propac Adulto",
+    especie: "perro",
+    descripcion:
+      "Formulado con ingredientes simples y nutritivos de pollo, arroz integral, verduras y frutas.",
+    precio: 24990,
+    stock: 10,
+    imagen:
+      "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
+  },
   // {
   //   id: 5,
   //   title: "Nuggets Puppy",
