@@ -5,7 +5,8 @@ import Title from "../Title/index";
 import Inventario from "../datos/productos"
 import ItemList from "../itemList/ItemList";
 import {useParams} from "react-router-dom"
-
+import {db} from "./firebaseConfig"
+import { collection, getDocs } from "firebase/firestore";
 const viewProducto =(especieid)=>{
     return new Promise((resolucion)=>{
         setTimeout(() => { 
@@ -26,10 +27,12 @@ const viewProducto =(especieid)=>{
 const ItemListContainer =() =>{
     const [producto, setProducto] = useState([]);
     const {especieid}= useParams();
-    useEffect(() =>{
-        viewProducto(especieid).then(respuestaPro =>{
-            setProducto(respuestaPro);
+    useEffect(async() =>{
+        const querySnapshot = await getDocs(collection(db, "producto"));
+        querySnapshot.forEach((doc) => {
+          console.log(`${doc.id} => ${doc.data()}`);
         })
+    });
     }, [especieid]);
 
 

@@ -14,9 +14,9 @@ const producto = [
     id: 2,
     title: "Taste Con Bisonte",
     especie: "perro",
-    stock: 10,
     descripcion:
       "Ideal para cachorros de razas chicas o medianas, así como hembras preñadas o lactantes.",
+    stock: 10,
     precio: 3400,
     imagen:
       "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
@@ -87,49 +87,49 @@ const producto = [
   //   imagen:
   //     "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
   // },
-  // {
-  //   id: 9,
-  //   title: "9LivesCat",
-  //   especie: "gato",
-  //   descripcion:
-  //     "Es un alimento húmedo para gatos delicioso y nutritivo de pescado y pollo reales.",
-  //   precio: 14000,
-  //   stock: 10,
-  //   imagen:
-  //     "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
-  // },
-  // {
-  //   id: 10,
-  //   title: "Arenero",
-  //   especie: "gato",
-  //   descripcion:
-  //     "Para uso de gatos ya educados y en preoceso de aprendisaje, facil y practico.",
-  //   precio: 34000,
-  //   stock: 10,
-  //   imagen:
-  //     "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
-  // },
-  // {
-  //   id: 11,
-  //   title: "Casa Para Gato",
-  //   especie: "gato",
-  //   descripcion:
-  //     "Tu gato podra disfrutar de la rica textura de esta casa ideal y recreativa.",
-  //   precio: 84000,
-  //   stock: 10,
-  //   imagen:
-  //     "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
-  // },
-  // {
-  //   id: 12,
-  //   title: "Kit Para Gato",
-  //   especie: "gato",
-  //   descripcion:
-  //     "Manta para gato muy confortable y facil de usar para mantener la comodidad.",
-  //   precio: 33500,
-  //   stock: 10,
-  //   imagen:
-  //     "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
-  // },
+  {
+    id: 9,
+    title: "9LivesCat",
+    especie: "gato",
+    descripcion:
+      "Es un alimento húmedo para gatos delicioso y nutritivo de pescado y pollo reales.",
+    precio: 14000,
+    stock: 10,
+    imagen:
+      "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
+  },
+  {
+    id: 10,
+    title: "Arenero",
+    especie: "gato",
+    descripcion:
+      "Para uso de gatos ya educados y en preoceso de aprendisaje, facil y practico.",
+    precio: 34000,
+    stock: 10,
+    imagen:
+      "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
+  },
+  {
+    id: 11,
+    title: "Casa Para Gato",
+    especie: "gato",
+    descripcion:
+      "Tu gato podra disfrutar de la rica textura de esta casa ideal y recreativa.",
+    precio: 84000,
+    stock: 10,
+    imagen:
+      "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
+  },
+  {
+    id: 12,
+    title: "Kit Para Gato",
+    especie: "gato",
+    descripcion:
+      "Manta para gato muy confortable y facil de usar para mantener la comodidad.",
+    precio: 33500,
+    stock: 10,
+    imagen:
+      "https://familypets-ccs.vercel.app/img/D_648048-MLV44873096897_022021-O.jpg",
+  },
 ];
 export default producto;

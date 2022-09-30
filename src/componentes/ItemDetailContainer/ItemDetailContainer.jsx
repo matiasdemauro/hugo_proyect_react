@@ -3,6 +3,10 @@ import React, {useState, useEffect}  from "react";
 import { useParams } from "react-router";
 import producto from "../datos/productos";
 import ItemDetail from "../ItemDetail/ItemDetail"
+// import { getFirestore, doc, getDoc } from "@firebase/firestore";
+ 
+
+
 
 const viewProducto =(id)=>{
     return new Promise((resolucion)=>{
